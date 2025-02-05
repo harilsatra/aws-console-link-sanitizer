@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "AWS Console URL Sanitizer",
+    "version": "1.0",
+    "description": "Convert AWS multi-session console URLs into generic shareable links.",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting",
+        "clipboardWrite",
+        "clipboard"
+    ],
+    "host_permissions": [
+        "*://*.console.aws.amazon.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "icon.png"
+        }
+    },
+    "icons": {
+        "128": "icon.png"
+    }
+}
