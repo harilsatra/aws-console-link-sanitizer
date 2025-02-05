@@ -70,5 +70,3 @@ The MIT License is a permissive license that allows you to:
 - Use and modify the software privately
 
 The only requirement is that the license and copyright notice must be included with the software.
-
-
